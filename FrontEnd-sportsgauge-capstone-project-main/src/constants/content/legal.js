@@ -1,0 +1,56 @@
+export const LEGAL_CONTENT = {
+  privacy: {
+    title: 'Privacy Policy',
+    updated: '1 June 2026',
+    sections: [
+      { heading: 'Introduction', body: 'SportsGauge Technologies Pvt. Ltd. ("SportsGauge," "we," "us") operates the SportsGauge platform for athletic assessment, talent discovery, and sports ecosystem services. This Privacy Policy explains how we collect, use, disclose, and safeguard personal information when you use our website, mobile applications, and APIs.' },
+      { heading: 'Information We Collect', body: 'We collect registration details (name, age, gender, contact information, location, sports interests), assessment videos and derived biomechanical metrics, device and browser metadata, coach and academy affiliation data, and communications you send to support teams.' },
+      { heading: 'How We Use Information', body: 'Information is used to deliver AI assessments, generate sport recommendations, populate leaderboards and public profiles you enable, facilitate coach-athlete connections, comply with sports federation reporting requirements, improve model accuracy through anonymized training, and send service communications you opt into.' },
+      { heading: 'Video and Biometric Data', body: 'Assessment videos are processed to extract pose landmarks and performance scores. Raw video may be retained up to 180 days for dispute resolution unless you request earlier deletion where regulations permit. We do not sell biometric data to third parties.' },
+      { heading: 'Sharing with Third Parties', body: 'We share data with state sports authorities, SAI, partner academies, and event organizers only when you apply to their programs or grant explicit consent. Service providers bound by confidentiality agreements host our infrastructure and analytics systems.' },
+      { heading: 'Data Security', body: 'We employ encryption in transit and at rest, role-based access controls, periodic penetration testing, and incident response procedures aligned with industry standards for health and fitness technology platforms.' },
+      { heading: 'Your Rights', body: 'You may access, correct, export, or request deletion of personal data subject to legal retention requirements. Contact privacy@sportsgauge.in with verification of identity. Grievances may be escalated to our Data Protection Officer at dpo@sportsgauge.in.' },
+      { heading: 'Children\'s Privacy', body: 'Users under 18 require parental or guardian consent documented during registration. Schools registering minors act as authorized agents and must maintain appropriate consent records.' },
+      { heading: 'Policy Updates', body: 'We may update this policy with notice on the platform. Continued use after effective date constitutes acceptance of revised terms.' },
+    ],
+  },
+  terms: {
+    title: 'Terms of Service',
+    updated: '1 June 2026',
+    sections: [
+      { heading: 'Agreement', body: 'By accessing SportsGauge you agree to these Terms of Service and our Privacy Policy. If you do not agree, discontinue use immediately.' },
+      { heading: 'Eligibility', body: 'You must be at least 10 years old and legally capable of entering contracts in India. Coaches and institutional users represent they have authority to bind their organizations.' },
+      { heading: 'Account Responsibilities', body: 'You are responsible for safeguarding credentials and for all activity under your account. Provide accurate registration information and update it when circumstances change.' },
+      { heading: 'Acceptable Use', body: 'You may not submit fraudulent videos, manipulate assessment results, harass other users, scrape data without permission, reverse engineer platform software, or use the service for unlawful purposes.' },
+      { heading: 'Intellectual Property', body: 'SportsGauge owns platform software, branding, and proprietary models. You retain ownership of your videos but grant us a license to process them for assessment and quality assurance.' },
+      { heading: 'Assessment Disclaimer', body: 'AI assessments are screening tools and do not replace medical examinations or professional coaching judgments. Consult qualified professionals before beginning intensive training programs.' },
+      { heading: 'Limitation of Liability', body: 'To the maximum extent permitted by law, SportsGauge is not liable for indirect, incidental, or consequential damages arising from platform use. Our aggregate liability is limited to fees paid in the preceding twelve months.' },
+      { heading: 'Termination', body: 'We may suspend accounts violating these terms. You may close your account at any time subject to data retention policies.' },
+      { heading: 'Governing Law', body: 'These terms are governed by the laws of India. Courts in New Delhi shall have exclusive jurisdiction subject to applicable consumer protection laws.' },
+    ],
+  },
+  'data-protection': {
+    title: 'Data Protection Statement',
+    updated: '1 June 2026',
+    sections: [
+      { heading: 'Commitment', body: 'SportsGauge implements technical and organizational measures designed to protect athlete data in alignment with evolving Indian digital personal data protection requirements and international best practices for sports technology platforms.' },
+      { heading: 'Lawful Basis', body: 'We process data based on consent, contractual necessity for services you request, legitimate interests in platform security and improvement, and legal obligations to sports governing bodies where applicable.' },
+      { heading: 'Data Minimization', body: 'We collect only information necessary for assessments, talent identification, and ecosystem features you use. Optional profile fields are clearly marked.' },
+      { heading: 'Retention Schedule', body: 'Account data is retained while your account is active plus up to three years for audit purposes. Anonymized analytics may be retained indefinitely. Video retention follows the schedule in our Privacy Policy.' },
+      { heading: 'Cross-Border Transfers', body: 'Primary data storage occurs in India. Limited processing on secure cloud infrastructure outside India, if any, uses standard contractual safeguards and encryption.' },
+      { heading: 'Breach Notification', body: 'In the event of a personal data breach likely to affect your rights, we will notify affected users and relevant authorities within timelines required by applicable law.' },
+      { heading: 'Contact', body: 'Data Protection Officer: dpo@sportsgauge.in | SportsGauge Technologies Pvt. Ltd., New Delhi, India.' },
+    ],
+  },
+  cookies: {
+    title: 'Cookie Policy',
+    updated: '1 June 2026',
+    sections: [
+      { heading: 'What Are Cookies', body: 'Cookies are small text files stored on your device when you visit SportsGauge. They help remember preferences, maintain login sessions, and understand how features are used.' },
+      { heading: 'Cookies We Use', body: 'Essential cookies enable authentication and security. Functional cookies remember theme preferences and language settings. Analytics cookies measure page performance in aggregate. We do not use cookies for third-party advertising.' },
+      { heading: 'Managing Cookies', body: 'You may disable non-essential cookies through browser settings or our cookie banner. Disabling essential cookies may limit platform functionality.' },
+      { heading: 'Local Storage', body: 'We use browser local storage to persist login tokens and theme selection. Clear site data in your browser to remove these items.' },
+      { heading: 'Updates', body: 'This Cookie Policy may be updated periodically. Material changes will be announced on the platform.' },
+    ],
+  },
+};
